@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modulo tres introduccion al css </title>
+</head>
+<body>
+    <h1>1.	Definición de CSS. </h1>
+    <P> CSS es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los
+        documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los
+        contenidos y su presentación y es imprescindible para crear páginas web complejas.</P>
+        
+        <h1>2.	Funcionamiento Básico de CSS.</h1>
+        <p> Con CSS, puedes crear reglas para decirle a tu sitio web cómo quieres mostrar la información y guardar los comandos para elementos de estilo (como fuentes, colores, tamaños, etc.) separados de los que configuran el contenido.</p>
+    
+        <h1>3.	Incluir CSS en un archivo HTML. </h1>
+        <p>Existen tres opciones para incluir CSS en un documento HTML.
+            1.Incluir CSS en el mismo documento HTML: Los estilos se definen en una zona específica del propio documento HTML. Se emplea la etiqueta
+            //style>// de HTMLysolamente se pueden incluir en la cabecera del documento (sólo dentro de la
+            sección //head>).
+            2.. Definir CSS en un archivo externo: En este caso, todos los estilos CSS se incluyen en un archivo de tipo CSS que las páginas HTML
+            enlazan mediante la etiqueta //link>. Un archivo de tipo CSS no es más que un archivo simple de
+            texto cuya extensión es .css Se pueden crear todos los archivos CSS que sean necesarios y cada
+            página HTMLpuede enlazar tantos archivos CSS como necesite.
+            3 Incluir CSS en los elementos HTML: El último método para incluir estilos CSS en documentos HTML es el peor y el menos utilizado,
+            ya que tiene los mismos problemas que la utilización de las etiquetas font//. </p>
+
+            <h1>4.	Definición de una regla CSS. </h1>
+            <p>Regla: cada uno de los estilos que componen una hoja de estilos CSS. </p>
+        
+            <h1>5.	Elemento de una regla CSS: 
+                •	Regla
+                •	Selector
+                •	Bloque de declaración
+                •	Propiedad
+                •	Valor
+                </h1> 
+                <p>Regla Cada regla está compuesta de una parte de "selectores", un símbolo de "llave de apertura" ({), otra parte denominada "declaraciones" y por último, un símbolo de "llave de cierre" (}):
+                 <br>
+                    Selector: indica el elemento o elementos HTML a los que se aplica la regla CSS.
+                
+                   <br>
+                    Bloque de declaracion: especifica los estilos que se aplican a los elementos. Está compuesta por una o
+                    más propiedades CSS.
+                    <br>
+                    Propiedad:  permite modificar el aspecto de una característica del elemento.
+                    <br>
+                    Valor: indica el nuevo valor de la característica modificada en el elemento.
+                </p>
+<h1>6.	Medios CSS. </h1>
+<p> Una de las características más importantes de las hojas de estilos CSS es que permiten definir
+    diferentes estilos para diferentes medios o dispositivos: pantallas, impresoras, móviles,
+    proyectores, etc.
+    Además, CSS define algunas propiedades específicamente para determinados medios, como por
+    ejemplo la paginación y los saltos de página para los medios impresos o el volumen y tipo de voz
+    para los medios de audio.</p>
+    <h1>7.	Comentarios CSS. </h1>
+    <p> CSS permite incluir comentarios entre sus reglas y estilos. Los comentarios son contenidos de
+        texto que el diseñador incluye en el archivo CSS para su propia información y utilidad.Los  navegadores ignoran por completo cualquier comentario de los archivos CSS, por lo que es
+        común utilizarlos para estructurar de forma clara los archivos CSS complejos.
+        El comienzo de un comentario se indica mediante los caracteres /* y el final del comentario se
+        indica mediante */, tal y como se muestra en el siguiente ejemplo:
+        /* Este es un comentario en CSS */ </p>
+    
+        <p>
+        Los comentarios pueden ocupar tantas líneas como sea necesario, pero no se puede incluir un
+        comentario dentro de otro comentario:
+        /* Este es un
+        comentario CSS de varias
+        lineas */</p>
+         <p>
+        Aunque los navegadores ignoran los comentarios, su contenido se envía junto con el resto de
+        estilos, por lo que no se debe incluir en ellos ninguna información sensible o confidencial.
+        La sintaxis de los comentarios CSS es muy diferente a la de los comentarios HTML, por lo que no
+        deben confundirse:
+        <!-- Este es un comentario en HTML -->
+        <!-- Este es un
+        comentario HTML de varias
+        lineas --> </p>
+        <H1>8.	Sintaxis de la definición de las propiedades CSS. </H1>
+        <p> A lo largo de los próximos capítulos, se incluyen las definiciones formales de la mayoría de
+            propiedades de CSS. La definición formal se basa en la información recogida en el estándar
+            oficial y se muestra en forma de tabla.
+            Una delas principales informaciones de cada definición es la lista de posibles valores que admite
+            la propiedad. Para definir la lista de valores permitidos se sigue un formato que es necesario
+            detallar.
+            Si el valor permitido se indica como una sucesión de palabras sin ningún carácter que las separe
+            (paréntesis, comas, barras, etc.) el valor de la propiedad se debe indicar tal y como se muestra y
+            con esas palabras en el mismo orden.
+            Si el valor permitido se indica como una sucesión de valores separados por una barra simple
+            (carácter |) el valor de la propiedad debe tomar uno y sólo uno de los valores indicados. Por
+            ejemplo, la notación ..porcentaje> | ..medida> | inherit indica que la propiedad solamente
+            puede tomar como valor la palabra reservada inherit o un porcentaje o una medida.</p>
+
+
+    </body>
+
+
+</html>
